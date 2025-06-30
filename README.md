@@ -7,7 +7,8 @@ This was done as part of a **peer-graded assignment** for the **Introduction to 
 ## Files
 
 **Included in this repository:**
-- `CNN Cancer Detection Kaggle Mini-Project.ipynb`: Jupyter notebook with EDA, model building, training, evaluation, and final submission generation.
+- `cnn_cancer_detection_kaggle_mini_project.ipynb`: Jupyter notebook with EDA, model building, training, evaluation, and final submission generation.
+- `cnn_cancer_detection_kaggle_mini_project.pdf`: PDF version of the full notebook run including EDA, model training, evaluation, and final results — ideal for quick review without setting up the environment.
 
 **Not included due to file size constraints:**
 - `train_labels.csv`: CSV file with training image labels.
@@ -25,7 +26,7 @@ Three CNN models were trained and compared:
 3. **Variant 2**: Deeper CNN with an extra conv layer, batch normalization, and a lower learning rate of 0.0001
 
 ## Results
-The models were evaluated using validation accuracy and AUC score. The deeper CNN performed best. Visualizations and tables can be found in the notebook.
+The models were evaluated using validation accuracy and Kaggle's private leaderboard score. The deeper CNN model performed the best, achieving the highest validation accuracy and the best Kaggle score (0.8674). The baseline model performed moderately, while the dropout variant failed to learn effectively. Full results, accuracy plots, and comparison tables are available in the notebook.
 
 ## Requirements
 - Python 3.10
